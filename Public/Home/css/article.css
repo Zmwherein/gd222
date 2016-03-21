@@ -1,0 +1,43 @@
+body{background:url(../images/body-bg3.png) repeat left top;}
+.box{
+	width: 60%;
+	height: auto;
+	overflow: hidden;
+	margin: 4rem auto 0;
+}
+.top{
+	padding-bottom:.5rem;
+	border-bottom:#ddd 1px solid;
+	text-align: center;
+}
+.top h3{
+	font-weight: normal;
+	margin-bottom: 2rem;
+}
+.top span{
+	color: #666;
+	font-size: .8rem;
+}
+.con{
+	height: auto;
+	min-height: 16rem;
+	padding-top: 2rem;
+	overflow: hidden;
+}
+section.page{
+	padding: .5rem 0;
+	color:#333;
+}
+section.page a{
+	color: #333;
+}
+
+
+@media screen and (max-width: 640px) {
+	body{min-height: 0;}
+	.box{width: 90%;margin-bottom: 6rem;}
+	.top h3{font-size: 1rem;}
+	.con{min-height: 5rem;}
+	section.page{font-size: .8rem;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+	footer.foot{position: static;}
+}

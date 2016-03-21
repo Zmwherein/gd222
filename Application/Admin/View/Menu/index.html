@@ -1,0 +1,156 @@
+<include file="Public:head" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">菜单管理</div>
+                        <div class="con_form">
+                            <div class="con_form_body">
+                                <div class="operation">
+                                    <div class="blo_right">
+										<if condition="$lis eq ''" >
+                                        <a href="__MODULE__/Menu/add">新增</a>
+										<else />
+                                        <a href="__MODULE__/Menu/add/next/yes">新增子类</a>
+										</if>
+                                    </div>
+                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td width="10%">ID</td>
+											<if condition="$lis eq ''" >
+											<td width="9%"><a href="#" id="ssort">排序</a></td>
+											</if>
+                                            <td>顶级菜单</td>
+                                            <td>操作</td>
+                                        </tr>
+                                    </thead> 
+                                    <tbody>             
+									<volist name="list" id="vo">
+                                        <tr>
+                                            <td>{$vo.id}</td>
+											<if condition="$lis eq ''" >
+											<td><input type="text" name="{$vo.id}" value="{$vo.sort}" style="width:30px;" class="so"/></td>
+											</if>
+                                            <td>
+											<if condition="$lis eq ''" >
+											<a href="__MODULE__/Menu/lists/id/{$vo.id}" style="color:#000; text-decoration:none;">{$vo.title}</a></td>
+											<else />
+											{$vo.title}
+											</if>
+                                            <td>
+                                                <a href="__MODULE__/Menu/edit/id/{$vo.id}" class="op1">编辑</a>
+												<if condition="$vo.id eq '1'">
+												<else />
+                                                <a href="__MODULE__/Menu/del/id/{$vo.id}" class="op1">删除</a>
+												</if>
+                                            </td>
+                                        </tr>
+									</volist>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- 分页 -->
+                            <div class="page">
+                                <div class="page_box" >
+                                    {$page}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+        </div>
+
+		<script type="text/javascript">
+			$('#ssort').click(function(){
+				var json = {};
+				$('.so').each(function(){
+					json[$(this).attr('name')] = $(this).val();
+				});
+				
+				
+				var data = {'json':json};				
+				$.ajax({
+					url: "{:U('Menu/sortBtn')}",
+					type: 'post',
+					dataType: 'json',
+					data: data,
+					success: function(data)
+					{
+						alert(data.info);
+						
+					},
+				});
+			});
+		</script>
+			
+        <script>
+        $(function(){
+            $('ul.navy').eq(0).find('ul.sec_nav').slideDown();
+            // 
+            $('#key').focus(function(){
+                if($(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','');
+                }
+            });
+            $('#key').blur(function(){
+                if($(this).val() == '' || $(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','请输入文档名称、备注');
+                }
+            });
+            // 单数样式
+            $('tr:even td').css('background-color','#f8f8f8');
+        });
+        $('a.top_nav').click(function(){
+            $(this).parent().find('ul').slideToggle();
+        });
+        // 
+        function check_search(){
+            var val = $('#key').val();
+            if(val == '' || val == '请输入文档名称、备注'){
+                alert('搜索内容不能为空');
+                return false;
+            }else{
+                $('#search_form').submit();
+            }
+        }
+        // 
+        $('.orther_chec').click(function(){
+            if($(this).hasClass('true')){
+                $(this).removeClass('true');
+                $(this).find('input[type="checkbox"]').attr('checked',false);
+            }else{
+                $(this).addClass('true');
+                $(this).find('input[type="checkbox"]').attr('checked',true);
+            }
+            
+        });
+        // 
+        $('.all_check').click(function(){
+            if($(this).hasClass('true')){
+                $(this).removeClass('true');
+                $('.orther_chec').removeClass('true');
+                $('.orther_chec').find('input[type="checkbox"]').attr('checked',false);
+            }else{
+                $(this).addClass('true');
+                $('.orther_chec').addClass('true');
+                $('.orther_chec').find('input[type="checkbox"]').attr('checked',true);
+            }
+        });
+        // 页面跳转
+        $('span.go a').click(function(){
+            var page = $('#goto').val().trim();
+            if(page == ''){
+                alert('请输入页码');
+            }else if(isNaN(page) || page <= 0 || page.substr(0,1) == 0){
+                alert('请正确输入页码格式');
+            }else
+            $('#page_form').submit();
+        })
+        </script>
+    </body>
+</html>

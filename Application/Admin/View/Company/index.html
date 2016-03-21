@@ -1,0 +1,95 @@
+<include file="Public:heads" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">公司信息</div>
+                        <div class="con_form">
+                            <form action="__MODULE__/Company/handle/id/{$data.id}" method="post" >
+                                <table>
+									<tr>
+										<td>地址：</td>
+										<td>
+											<textarea name="address" style="width:100%;height:60px">{$data.address}</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>邮箱：</td>
+										<td>
+											<input type="text" name="email" value="{$data.email}"/>
+										</td>
+									</tr>
+									<tr>
+										<td>电话：</td>
+										<td>
+											<input type="text" name="tel" value="{$data.tel}"/>
+										</td>
+									</tr>
+									<tr>
+										<td>网站：</td>
+										<td>
+											<textarea name="site" style="width:100%;">{$data.site}</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>网站标题：</td>
+										<td>
+											<input type="text" name="title" value="{$data.title}" style="width:100%"/>
+										</td>
+									</tr>
+									<tr>
+										<td>关键字：</td>
+										<td>
+											<textarea name="keywords" style="width:100%;">{$data.keywords}</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>描述：</td>
+										<td>
+											<textarea name="description" style="width:100%;">{$data.description}</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>手机：</td>
+										<td>
+											<input type="text" name="mob" value="{$data.mob}"/>
+										</td>
+									</tr>
+									<tr>
+										<td>如何到达：</td>
+										<td>
+											<textarea name="arrive" style="width:300px;height:50px">{$data.arrive}</textarea>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>版权信息：</td>
+										<td>
+											<input type="text" name="copy" value="{$data.copy}"/>
+										</td>
+									</tr>
+									<tr>
+										<td>备案号：</td>
+										<td>
+											<input type="text" name="beian" value="{$data.beian}"/>
+										</td>
+									</tr>
+									
+									<if condition="$data eq ''">
+										<input type="hidden" name="act" value="add" />
+									<else />
+									</if>
+									
+                                </table>
+                                <input type="submit" value="保存" class="chong_sub"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<include file="Public:left" />
+
+        </div>
+
+<include file="Public:footer" />

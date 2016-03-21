@@ -1,0 +1,78 @@
+<include file="Public:heads" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">功能管理</div>
+                        <div class="con_form">
+                            <form action="__MODULE__/Func/edit/id/{$data.id}" method="post" id="chong_form" onsubmit="return chong_check();">
+                                <table>
+                                    <tr>
+                                        <td>功能名：</td>
+                                        <td><input type="text" name="name"  placeholder="请输入功能名" value="{$data.name}"  /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>链接地址：</td>
+                                        <td><input type="text"  name="url" value="{$data.url}" placeholder="请输入链接地址" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>类名：</td>
+                                        <td><input type="text" name="class" value="{$data.class}" /></td>
+                                    </tr>
+                                </table>
+                                <input type="submit" value="保存" class="chong_sub"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+
+        </div>
+
+        <script>
+        $(function(){
+            $('ul.navy').eq(0).find('ul.sec_nav').slideDown();
+            // 
+            $('#key').focus(function(){
+                if($(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','');
+                }
+            });
+            $('#key').blur(function(){
+                if($(this).val() == '' || $(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','请输入文档名称、备注');
+                }
+            });
+        });
+        $('a.top_nav').click(function(){
+            $(this).parent().find('ul').slideToggle();
+        });
+        // 
+        function check_search(){
+            var val = $('#key').val();
+            if(val == '' || val == '请输入文档名称、备注'){
+                alert('搜索内容不能为空');
+                return false;
+            }else{
+                $('#search_form').submit();
+            }
+        }
+        // 
+        function chong_check(){
+            var amount = $('#amount').val().trim();
+            if(amount == ''){
+                $('#tip1').html('充值金额不能为空');
+                return false;
+            }else if(isNaN(amount) || amount <= 0 || amount.substr(0,1) == 0){
+                $('#tip1').html('请正确填写充值金额');
+                return false;
+            }else{
+                $('#chong_form').submit();
+            }
+
+        }
+        </script>
+    </body>
+</html>

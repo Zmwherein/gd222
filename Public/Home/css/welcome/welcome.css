@@ -1,0 +1,107 @@
+img.up{
+	position: absolute;
+	left:50%;
+	bottom:5rem;
+	margin-left: -3.5rem;
+}
+.con0{
+	width: 50%;
+	height: auto;
+	padding-top: 4rem;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.con0 h3{font-weight: normal;}
+.con0 > section {
+	height: auto;
+	margin-top: 7rem;
+	overflow: hidden;
+}
+.left,.right{
+	width: 50%;
+	float: left;
+}
+.left img,.right img{max-width: 100%}
+#section1{background: url(../../images/j3.png) no-repeat left center;}
+.con1{
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 4rem;
+	color:#fff;
+}
+.con1 h3{
+	text-align: center;
+	font-weight: normal;
+}
+.con1 span{
+	display: block;
+	margin: .5rem 0;
+}
+.con1 > section > input{
+	width: 100%;
+	height: 2rem;
+	text-indent: 1rem;
+}
+.con1 > section > textarea{
+	width: 100%;
+	text-indent: 1rem;
+	padding-top: 1rem;
+}
+.con1 button{
+	width: 6rem;
+	height: 2rem;
+	color:#fff;
+	background: none;
+	border:#fff 1px solid;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	float: right;
+	margin: 2rem .5rem 0 0;
+	cursor: pointer;
+}
+
+
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 200px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.fixed{position: fixed;top:0;left:0;width: 100%;z-index: 200;}
+
+
+@media screen and (max-width: 640px){
+	.con0{width: 70%;padding-top: 2rem;}
+	img.up{width: 2rem;height: 2rem;margin-left: -1rem;bottom:6rem;}
+	.con1{width: 85%}
+	.con1 > section > textarea{height: 8rem;}
+	.con1 button{margin: 1rem .5rem 0 0}
+	.con1 h3{display: none;}
+}
+@media screen and (max-width: 380px){
+	.con0{width: 80%;padding-top: 2rem;}
+	.con0 h3{font-size: 1rem;display: none;}
+	.con0 > section{margin-top: 1rem;}
+	.left,.right{float: none;width: 100%;}
+	img.up{width: 2rem;height: 2rem;margin-left: -1rem;bottom:6rem;}
+	.swiper-slide{width: 100%}
+}

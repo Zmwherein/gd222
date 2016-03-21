@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>{:C('WEB_TITLE')}</title>
+	<meta name="keywords" content="{:C('WEB_KEY')}" />
+	<meta name="description" content="{:C('WEB_DES')}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/welcome/jquery.fullPage.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/public.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/welcome/jquery.bxslider.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/welcome/welcome.css" />
+
+    <script src="__PUBLIC__/Home/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/welcome/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/welcome/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/welcome/main.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+    		my_section1.init();
+      $('#welcome').fullpage({
+    	'verticalCentered': false,
+    	'css3': true,
+    	'sectionsColor': ['#6cbb52','#e89c38', '#40a3e1'],
+    	'navigation': true,
+    	'navigationPosition': 'right',
+    	'afterLoad': function(anchorLink, index){
+    				if(index==3){
+    					my_section1.init();
+    				}
+    				if(index==1){
+    					my_section1.init();
+    				}
+    				if(index==2){
+    					my_section2.init();
+    				}
+
+    	},
+    	'onLeave': function(index, nextIndex, direction){
+    				if(index==1){
+    					my_section1.anim();
+    				}
+    				if(index==3){
+    					my_section1.anim();
+    				}
+    				if(index==2){
+    					my_section2.anim();
+    				}
+    	}
+      });
+    });
+    </script>
+</head>
+<body>
+
+    <div id="welcome">
+        <div class="section" id="section0">
+            <div class="con0">
+                <h3>网站建设——我们只为创新而生</h3>
+                <section>
+                    <div class="left"><img src="__PUBLIC__/Home/images/j2.png" alt=""></div>
+                    <div class="right"><img src="__PUBLIC__/Home/images/j1.png" alt=""></div>
+                </section>
+            </div>
+            <img src="__PUBLIC__/Home/images/up.png" class="up" alt="">
+        </div>
+        <div class="section" id="section1">
+            <form action="__MODULE__/Index/webBuild" method="post" onsubmit="return check();" id="message">
+                <div class="con1">
+					<h3>留言预定制作</h3>
+					<span>姓名：</span>
+					<section><input type="text" name="name" id="name"></section>
+					<span>联系电话：</span>
+					<section><input type="text" name="tel" id="phone"></section>
+					<span>建站留言：</span>
+					<section>
+						<textarea name="message" id="" cols="30" rows="10"></textarea>
+					</section>
+					<input type="hidden" name="is_web" value="1" />
+					<button>提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="fixed head">
+        <!-- header start-->
+		<include file="Public:head" />
+        <!-- header end-->
+    </div>
+    <!-- fixed -->
+    <include file="Public:fix" />
+
+    <div class="fixed bottom">
+        <!-- footer start -->
+        <include file="Public:footer" />
+        <!-- footer end -->
+    </div>
+    <script>
+    $(function(){
+        $('#fp-nav').css('display','none');
+    });
+    function check(){
+        var name = $('#name').val().trim(),
+            phone = $('#phone').val().trim(),
+            re = /^1\d{10}$/;
+        if(name == ''){
+            alert('姓名不能为空');
+            return false;
+        }else if(phone == '' || !(re.test(phone))){
+            alert('请正确填写联系电话');
+            return false;
+        }else
+        $('#message').submit();
+    }
+    // public
+    $('a.menu').on('click',function(){
+        $('ul.sec-bar').slideToggle();
+    })
+    </script>
+</body>
+</html>

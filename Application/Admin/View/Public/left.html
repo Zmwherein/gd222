@@ -1,0 +1,20 @@
+<div class="con_left">
+	<a href="__MODULE__" class="home">首页
+		<span class="agent"></span>
+	</a>
+	<volist name="menu" id="vo">
+	<ul class="navy">
+		<li>
+			<a href="javascript:void(0);" class="top_nav">{$vo.title}</a></a>
+			<volist name="menu.next" id="vol">
+			<if condition="$vol.rid eq $vo['id']">
+			<ul class="sec_nav">
+				<li class="active"><a href="{$vol.url}">{$vol.title}<img src="__PUBLIC__/Admin/images/lan1.png" alt=""/></a></li>
+			</ul>
+			</if>
+			</volist>
+		</li>
+	</ul>
+	</volist>
+	
+</div>

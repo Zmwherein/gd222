@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{:C('WEB_TITLE')}</title>
+		<meta name="keywords" content="{:C('WEB_KEY')}" />
+		<meta name="description" content="{:C('WEB_DES')}" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="__PUBLIC__/Home/css/public.css" rel="stylesheet" type="text/css">
+		<link href="__PUBLIC__/Home/css/news-list.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<!-- header start-->
+		<include file="Public:head" />
+		<!-- header end-->
+		<div class="kong"></div>
+		<ul class="box">
+			<volist name="lists" id="lis">
+			<li>
+				<div class="con">
+					<a href="__MODULE__/News/article/id/{$lis.id}"><img src="{$lis.pic}" alt=""></a>
+					<section>{$lis.title}</section>
+					<p>{$lis.intro}</p>
+				</div>
+			</li>
+			</volist>
+		</ul>
+		<div class="page">
+			{$page}
+		</div>
+		<!-- fixed -->
+		<include file="Public:fix" />
+
+		<!-- footer start -->
+		<include file="Public:footer" />
+		<!-- footer end -->
+
+		<script>
+		$('a.menu').on('click',function(){
+			$('ul.sec-bar').slideToggle();
+		})
+		</script>
+	</body>
+</html>

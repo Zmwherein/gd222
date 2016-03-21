@@ -1,0 +1,52 @@
+<include file="Public:head" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">新闻管理</div>
+                        <div class="con_form">
+                            <div class="con_form_body">
+                                <div class="operation">
+                                    <div class="blo_right">
+                                        <a href="__MODULE__/News/add">新增</a>
+                                    </div>
+                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td>标题</td>
+                                            <td>图片</td>
+											<td>简介</td>
+                                            <td>操作</td>
+										</tr>
+                                    </thead>
+                                    <tbody>
+									<volist name="list" id="vo">
+                                        <tr>
+                                            <td style="width:23%">{$vo.title}</td>
+                                            <td><img src="{$vo.pic}" alt="" width="50" height="50"/></td>
+											<td style="width:50%">{$vo.intro}</td>
+                                            <td>
+                                                <a href="__MODULE__/News/edit/id/{$vo.id}" class="op1">编辑</a>
+                                                <a href="__MODULE__/News/del/id/{$vo.id}" class="op1">删除</a>
+                                            </td>
+                                        </tr>
+									</volist>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- 分页 -->
+                            <div class="page">
+                                <div class="page_box" >
+                                    {$page}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+        </div>
+
+<include file="Public:footer" />

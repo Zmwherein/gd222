@@ -1,0 +1,31 @@
+<include file="Public:heads" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">导航管理</div>
+                        <div class="con_form">
+                            <form action="__MODULE__/Nav/add" method="post" id="chong_form" >
+                                <table>
+                                    <tr>
+                                        <td>导航名：</td>
+                                        <td><input type="text" name="name"  placeholder="请输入导航名"   /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>链接地址：</td>
+                                        <td><input type="text"  name="url" value="" placeholder="请输入链接地址" /></td>
+                                    </tr>
+                                  
+                                </table>
+                                <input type="submit" value="保存" class="chong_sub"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+
+        </div>
+
+<include file="Public:footer" />

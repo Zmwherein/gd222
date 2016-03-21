@@ -1,0 +1,45 @@
+<include file="Public:heads" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">菜单管理</div>
+                        <div class="con_form">
+                            <form action="__MODULE__/Menu/add" method="post" id="chong_form" onsubmit="return chong_check();">
+                                <table>
+                                    <tr>
+                                        <td>菜单标题：</td>
+                                        <td><input type="text" name="title"  placeholder="请输入菜单标题"   /></td>
+                                    </tr>
+									<if condition="$Think.get.next eq 'yes'" >
+                                    <tr>
+                                        <td>链接地址：</td>
+                                        <td><input type="text"  name="url" value="__MODULE__/"  /></td>
+                                    </tr>
+									</if>
+                                    <tr>
+                                        <td>所属上级：</td>
+                                        <td><select name="rid" id="rid">
+											<if condition="$Think.get.next eq 'yes'" >
+												<volist name="data" id="vo">
+													<option value="{$vo.id}">{$vo.title}</option>
+												</volist>
+											<else />
+												<option value="0" >顶级菜单</option>
+											</if>
+                                            </select></td>
+                                        
+                                    </tr>
+                                </table>
+                                <input type="submit" value="保存" class="chong_sub"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+
+        </div>
+
+<include file="Public:footer" />

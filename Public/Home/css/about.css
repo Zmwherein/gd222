@@ -1,0 +1,87 @@
+body{background:url(../images/body-bg3.png) repeat left top;}
+.box{
+	width: 65%;
+	margin: 4rem auto 6rem;
+}
+.con{
+	height: auto;
+	overflow: hidden;
+	line-height: 1.8rem;
+	font-size: .9rem;
+}
+.info{
+	height: auto;
+	padding: 1rem 0 1rem 2rem;
+	margin-top: 2rem;
+	background: #fff;
+	overflow: hidden;
+}
+.info section{
+	width: 9%;
+	max-width: 3.3rem;
+	height: auto;
+	float: left;
+	margin-right: 2rem;
+	text-align: center;
+	font-size: .7rem;
+	cursor: pointer;
+}
+.info section img{max-width: 100%;margin-bottom: .3rem;}
+.info a{
+	display: block;
+	width: 9%;
+	max-width: 3.3rem;
+	height: auto;
+	float: left;
+	margin-right: 2rem;
+	text-align: center;
+	font-size: .7rem;
+	color:#333;
+}
+.info a img{max-width: 100%;margin-bottom: .3rem;}
+.pic{
+	position: fixed;
+	width: 80%;
+	height: auto;
+	left:50%;
+	top:3rem;
+	margin-left: -35%;
+	display: none;
+}
+.show-pic{
+	height: 40rem;
+	position: relative;
+}
+.show-pic img{
+	width: 100%;
+	height:100%;
+	display: none;
+}
+.show-pic::after{
+	content: 'x';
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	background: red;
+	color:#fff;
+	position: absolute;
+	top:1rem;
+	right:1rem;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	-ms-border-radius:100%;
+	-o-border-radius:100%;
+	border-radius:100%;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 640px) {
+	.box{width: 90%;margin: 2rem auto 4rem;}
+	.info{padding: 1rem 0 0 .5rem;}
+	.info section,.info a{width: 18%;margin-right: 1rem;}
+	.pic{margin-left: -40%;top:2rem;}
+	footer.foot{position: static;}
+}

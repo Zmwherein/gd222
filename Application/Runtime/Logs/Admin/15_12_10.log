@@ -1,0 +1,1794 @@
+[ 2015-12-10T15:52:00+08:00 ] 127.0.0.1 /index.php/Admin/Nav/index
+ERR: 无法加载控制器:Nav
+
+[ 2015-12-10T15:53:48+08:00 ] 127.0.0.1 /index.php/Admin/Nav/index
+ERR: 模板不存在:./Application/Admin/View/Nav/index.html
+
+[ 2015-12-10T15:53:48+08:00 ] 127.0.0.1 /index.php/Admin/Nav/index
+ERR: 模板不存在:./Application/Admin/View/Nav/index.html
+
+[ 2015-12-10T17:57:09+08:00 ] 127.0.0.1 /index.php/Admin/News/edit/id/1
+ERR: 1146:Table 'gd222.gd_service' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gd_service`
+
+[ 2015-12-10T18:05:43+08:00 ] 127.0.0.1 /index.php/Admin/Agent/edit/id/1
+ERR: 无法加载控制器:Agent
+
+[ 2015-12-10T19:23:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:24:03+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:24:07+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( `id`='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid != '0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:24:16+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:24:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( `id`='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid != '0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:25:11+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:25:12+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:25:15+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( `id`='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 73 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:25:20+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:26:15+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:26:16+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: menu F:\yzm11\Application\Admin\Controller\FuncController.class.php 第 51 行.
+
+[ 2015-12-10T19:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 37 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 39 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 48 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: rid F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: name F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 49 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 56 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 73 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:27:55+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:27:56+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 60 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:28:29+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-10T19:28:30+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 60 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:28:48+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='4' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-10T19:29:12+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 60 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:29:28+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: UPDATE `gd_menu` SET `url`='/index.php/Home/Index/marketing' WHERE ( `id`='4' ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:29:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:29:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:29:55+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:29:55+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-10T19:29:56+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:30:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:30:14+08:00 ] 127.0.0.1 /index.php/Admin/Nav/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_nav` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_nav`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 63 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 76 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:30:28+08:00 ] 127.0.0.1 /index.php/Admin/Nav/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_nav` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_nav`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 63 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 76 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Nav/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_nav`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 63 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 76 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\c4e487e7ef540c8b27ad1e8c9be3ab57.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:31:09+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:31:16+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 60 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:31:28+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: UPDATE `gd_func` SET `name`='营销推广',`url`='/index.php/Home/Index/marketing',`class`='yx' WHERE ( `id`='4' ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:31:29+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-10T19:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 60 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:31:39+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: UPDATE `gd_func` SET `name`='硬件推广',`url`='/index.php/Home/Index/hardware',`class`='yj' WHERE ( `id`='5' ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:31:40+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-10T19:31:41+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_func` WHERE ( `id`='2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 60 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\d2d854c43e5f4fbc09250bbf228f9cc6.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-10T19:31:44+08:00 ] 127.0.0.1 /index.php/Admin/Func/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: UPDATE `gd_func` SET `name`='网站建设',`url`='/index.php/Home/Index/webbuild',`class`='wz' WHERE ( `id`='2' ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:31:45+08:00 ] 127.0.0.1 /index.php/Admin/Func/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gd_func` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_func`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 65 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 78 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\17910393158b1ed2e330c9bfb483f222.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-10T19:31:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:31:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:32:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: next F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 39 行.
+NOTIC: [8] Undefined index: next F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 46 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 65 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:32:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9')  [ RunTime:0.0000s ]
+SQL: INSERT INTO `gd_menu` (`title`,`rid`) VALUES ('建站留言','0') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:32:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:32:28+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lists/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='11' ) LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:32:30+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add/next/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 65 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:32:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+SQL: INSERT INTO `gd_menu` (`title`,`url`,`rid`) VALUES ('建站留言','/index.php/Admin/webBuild/index','11') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:32:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:33:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lists/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='11' ) LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:33:20+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: next F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 39 行.
+NOTIC: [8] Undefined index: next F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 46 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 65 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:33:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11')  [ RunTime:0.0000s ]
+SQL: INSERT INTO `gd_menu` (`title`,`rid`) VALUES ('联系我们','0') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-10T19:33:30+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11','13')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:33:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/lists/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11','13')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='13' ) LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:33:32+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add/next/yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11','13')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 65 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:33:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11','13')  [ RunTime:0.0000s ]
+SQL: INSERT INTO `gd_menu` (`title`,`url`,`rid`) VALUES ('联系我们','/index.php/Admin/Connect/index','13') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-10T19:33:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gd_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE `rid` IN ('1','3','5','7','9','11','13')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_menu` WHERE ( rid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gd_menu` WHERE ( rid='0' ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 35 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined variable: lis F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 52 行.
+NOTIC: [8] Undefined index: title F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 79 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+NOTIC: [8] Undefined index: id F:\yzm11\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

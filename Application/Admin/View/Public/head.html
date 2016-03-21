@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<title>用户管理后台</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <link href="__PUBLIC__/Admin/css/public.css" rel="stylesheet">
+	    <link href="__PUBLIC__/Admin/css/list.css" rel="stylesheet">
+
+	    <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery-1.7.1.min.js"></script>
+    </head>
+    <body>
+    	<div class="header">
+            <div class="header_left">用户管理后台</div>
+            <div class="hearder_right">
+                <img src="__PUBLIC__/Admin/images/nick-pic.jpg" alt="" class="nick_pic">
+                <div class="operate">
+                    <h3>{$Think.cookie.user_auth|decode}</h3>
+                    <span>
+                        <a href="__MODULE__/Index/change_pwd">修改密码</a>
+                        <a href="__MODULE__/Login/loginout">注销</a>
+                    </span>
+                </div>
+            </div>
+        </div>

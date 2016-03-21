@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{:C('WEB_TITLE')}</title>
+		<meta name="keywords" content="{:C('WEB_KEY')}" />
+		<meta name="description" content="{:C('WEB_DES')}" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="__PUBLIC__/Home/css/public.css" rel="stylesheet" type="text/css">
+		<link href="__PUBLIC__/Home/css/connect.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<!-- header start-->
+		<include file="Public:head" />
+		<!-- header end-->
+		<div class="kong"></div>
+		<div class="box">
+			<div class="left">
+				<h4 class="title">联系方式</h4>
+				<p>
+					+Add: {$comp.address|htmlspecialchars_decode} <br/>
+					+Email: {$comp.email}<br/>
+					+Tel: {$comp.tel}<br/>
+					+Site: {$comp.site}<br/>
+					+Mob: {$comp.mob}<br/><br/>
+
+					如何到达<br/>
+					{$comp.arrive}
+				</p>
+			</div>
+			<form action="__MODULE__/contact/index" method="post" onsubmit="return check();" id="connect-form">
+				<div class="right">
+					<h4 class="title">填写表单与我们联系</h4>
+					<section class="name">
+						<input type="text" name="name" placeholder="姓&nbsp;&nbsp;名" id="name">
+					</section>
+					<section class="email">
+						<input type="text" name="email" placeholder="电子邮箱" id="email">
+					</section>
+					<section class="tel">
+						<input type="text" name="tel" placeholder="联系电话" id="tel">
+					</section>
+					<div class="text">
+						<textarea name="message"></textarea>
+					</div>
+					<input type="hidden" name="is_web" value="0"/>
+					<button>提交</button>
+				</div>
+			</form>
+		</div>
+		
+		<!-- fixed -->
+		<include file="Public:fix" />
+
+		<!-- footer start -->
+		<include file="Public:footer" />
+		<!-- footer end -->
+		<script>
+		function check(){
+			var name = $('#name').val().trim(),
+				email = $('#email').val().trim(),
+				tel = $('#tel').val().trim(),
+				tel_re = /^1\d{10}$/,
+				name_reg = /^[a-zA-Z\u4e00-\u9fa5]{1,}$/,
+				email_reg = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;
+			if(name == '' || !name_reg.test(name)){
+				alert('请正确填写姓名');
+				return false;
+			}else if(email == '' || !email_reg.test(email)){
+				alert('请正确填写邮箱');
+				return false;
+			}else if(tel == '' || !tel_re.test(tel)){
+				alert('请正确填写手机号码');
+				return false;
+			}else
+			$('#connect-form').submit();
+		}
+		// public
+		$('a.menu').on('click',function(){
+			$('ul.sec-bar').slideToggle();
+		})
+		</script>
+	</body>
+</html>

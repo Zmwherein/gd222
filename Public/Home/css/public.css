@@ -1,0 +1,210 @@
+*{padding:0;margin:0;}
+body{
+	font-family: "微软雅黑";
+	background-color: #f6f6f5;
+	background:
+		url(../images/body-bg2.png) no-repeat 50px top,
+		url(../images/body-bg3.png) repeat left top;
+	min-height: 700px;
+}
+img{border:none;vertical-align:middle;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+textarea,input,button,a{outline: none;font-family: "微软雅黑";}
+/**/
+.cai{
+	width: 100%;
+	height: .375rem;
+	background: url(../images/body-bg.png) no-repeat left center;
+	position: fixed;
+	top:0;
+	left:0;
+}
+header.pc-head{
+	width: 8.125rem;
+	height: 100%;
+	background: #fff;
+	border-right:#ababaa 1px solid;
+	box-shadow: 2px 0 5px gray;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:100;
+}
+header.pc-head div{
+	padding-top: 2rem;
+	text-align: center;
+}
+header.pc-head ul{
+	margin-top: 3rem;
+}
+header.pc-head ul li{
+	width: 8.125rem;
+	height: auto;
+	padding-bottom: 1.5rem;
+	text-align: center;
+}
+header.pc-head ul li a{
+	color:#333;
+}
+section.copy{
+	position: absolute;
+	width: 8.125rem;
+	bottom:0;
+	font-size: .7rem;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+header.wap-head{
+	width: 100%;
+	padding: .5rem 0;
+	margin-top: .375rem;
+	border-bottom: #ababaa 1px solid;
+	-webkit-box-shadow:2px 0 5px gray;
+	-moz-box-shadow:2px 0 5px gray;
+	box-shadow:2px 0 5px gray;;
+	text-align: center;
+	position: fixed;
+	display: none;
+	top:0;
+	left:0;
+	z-index: 200;
+	background: #fff;
+}
+.kong{
+	width: 100%;
+	height: 4rem;
+	display: none;
+}
+ul.sec-bar{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top:4.5rem;
+	left:0;
+	z-index: 200;
+	display: none;
+}
+ul.sec-bar li{
+	width: 100%;
+	height:auto;
+	background: #fff;
+	border-bottom: #dcdcdc 1px solid;
+	text-indent: 1rem;
+}
+ul.sec-bar li a{
+	display: block;
+	padding: 1rem 0;
+	color:#333;
+}
+
+
+
+
+img.logo2{
+	width: 8rem;
+	height: 3rem;
+}
+a.menu{
+	width: 1.4rem;
+	height: 1.1rem;
+	position: absolute;
+	top:1.2rem;
+	left:1rem;
+}
+a.menu img{max-width: 100%}
+footer.foot{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	padding-bottom: 1.1rem;
+	bottom: 0;
+	font-size: .7rem;
+}
+.foo-left{
+	padding-left: 10rem;
+	float: left;
+	line-height: 2.875rem;
+}
+.foo-right{
+	padding-right: 1.5rem;
+	float: right;
+	font-size: 0;
+	line-height: 2.875rem;
+	overflow: hidden;
+}
+.foo-right span{
+	display: block;
+	margin-left: .5rem;
+	font-size: .7rem;
+	float: left;
+}
+.bdsharebuttonbox{float: left;}
+.fix{
+	width: 50px;
+	height: auto;
+	position: fixed;
+	top:50%;
+	right:0;
+	margin-top: -50px;
+}
+.fix a{
+	display: block;
+	position: relative;
+	width: 3.125rem;
+	height: 3.125rem;
+	border-bottom: #9cd5f0 1px solid;
+}
+.fix a:last-child{border:none;}
+a.fix-news{background: #45b0e3 url(../images/fix-news.png) no-repeat center center;}
+a.fix-addr{background: #45b0e3 url(../images/fix-addr.png) no-repeat center center;}
+a.fix-qq{background: #45b0e3 url(../images/fix-qq.png) no-repeat center center;}
+a.fix-sina{background: #45b0e3 url(../images/fix-sina.png) no-repeat center center;}
+.fix a span{
+	display: block;
+	width: 150px;
+	height: 51px;
+	line-height: 51px;
+	text-indent: 4rem;
+	position: absolute;
+	top:0;
+	left:50px;
+	color:#333;
+	-webkit-transition:all .1s linear;
+	-moz-transition:all .1s linear;
+	-o-transition:all .1s linear;
+	-ms-transition:all .1s linear;
+	transition:all .1s linear;
+}
+span.fix-news-t{
+	background: #fff url(../images/fix-news-t.png) no-repeat 1.5rem center
+}
+span.fix-addr-t{
+	background: #fff url(../images/fix-addr-t.png) no-repeat 1.5rem center
+}
+span.fix-qq-t{
+	background: #fff url(../images/fix-qq-t.png) no-repeat 1.5rem center
+}
+span.fix-sina-t{
+	background: #fff url(../images/fix-sina-t.png) no-repeat 1.5rem center
+}
+.fix a:hover span{
+	left:-100px;
+}
+
+
+@media screen and (max-width: 640px){
+	body{
+		background:
+		url(../images/body-bg.png) no-repeat top left,
+		url(../images/body-bg3.png) repeat left top;
+	}
+	header.pc-head{display: none;}
+	header.wap-head{display: block;}
+	.kong{display: block;}
+	.fix{display: none;}
+	.foo-left ,.foo-right{float: none;text-align: center;padding: 0}
+	.foo-right{width: 230px;margin: 0 auto;}
+	article.con{padding-left: 1rem;}
+	/*footer.foot{position: static}*/
+}

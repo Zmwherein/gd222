@@ -1,0 +1,70 @@
+<include file="Public:heads" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">修改密码</div>
+                        <div class="con_form">
+                            <form  action="__MODULE__/Index/change_pwd" method="post">
+                                <table>
+									<tr>
+										<th>原密码: </th>
+										<th><input type="password" name="oldPwd" /><br/></th>
+									</tr>
+									<tr>
+										<th>新密码: </th>
+										<th><input type="password" name="newPwd" id="newPwd"/><br/></th>
+									</tr>
+									<tr>
+										<th>再次密码: </th>
+										<th><input type="password" name="newPwd2" id="newPwd2" onblur="check_pwd()" /><br/></th>
+									</tr>
+									<tr>
+										<th colspan='2'><input type="submit" value="提交" /></th>
+									</tr>
+									<tr>
+										<th><input type="hidden" name="id" value="{$Think.cookie.userId|decode}" /></th>
+									</tr>
+					
+								</table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+
+        </div>
+
+        <script>
+        $(function(){
+            $('ul.navy').eq(0).find('ul.sec_nav').slideDown();
+            // 
+            $('#key').focus(function(){
+                if($(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','');
+                }
+            });
+            $('#key').blur(function(){
+                if($(this).val() == '' || $(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','请输入文档名称、备注');
+                }
+            });
+        });
+        $('a.top_nav').click(function(){
+            $(this).parent().find('ul').slideToggle();
+        });
+		function check_pwd()
+		{
+			var pwd1 = document.getElementById('newPwd').value;
+			var pwd2 = document.getElementById('newPwd2').value;
+			if (pwd1 != pwd2)
+			{ 
+				alert('二次密码不一致,请重输');
+			}
+		}
+       
+        </script>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+body{background: url(../images/body-bg3.png) repeat left top;}
+.box{
+	width: 60%;
+	height: auto;
+	margin: 4rem auto 6rem;
+	overflow: hidden;
+}
+.left{
+	width: 45%;
+	height: auto;
+	float: left;
+}
+h4.title{
+	font-weight: normal;
+	margin-bottom: 3rem;
+}
+.left p{
+	font-size: .9rem;
+	line-height: 2.5rem;
+}
+.right{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.right section{
+	height: auto;
+	padding-left: 4rem;
+	padding-bottom: .5rem;
+	margin-bottom: 1rem;
+	border-bottom: #b9b9b9 1px solid;
+}
+.right section input{
+	width: 100%;
+	height: 2.5rem;
+	border:none;
+	background: none;
+}
+section.name{background: url(../images/name.png) no-repeat 1rem .5rem;}
+section.email{background: url(../images/email.png) no-repeat 1rem .5rem;}
+section.tel{background: url(../images/tel.png) no-repeat 1.3rem .5rem;}
+.text{
+	border:#b9b9b9 1px solid;
+	height: auto;
+}
+.text textarea{
+	width: 100%;
+	height: 7rem;
+	border:none;
+	padding-top: 1rem;
+	text-indent: 1rem;
+	resize: none;
+}
+.right button{
+	width: 10rem;
+	height: 2.5rem;
+	color:#fff;
+	background: #705d76;
+	border:none;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+	margin: 1.5rem 0 0 1rem;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 640px){
+	.box{width: 90%;margin: 2rem auto 3rem;}
+	.left,.right{float: none;width: 100%;}
+	footer.foot{position: static}
+}

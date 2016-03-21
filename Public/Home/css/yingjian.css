@@ -1,0 +1,148 @@
+body{
+	background-color: #f6f6f5;
+	background:
+		url(../images/body-bg3.png) repeat left top;
+}
+.contain{
+	width: 65%;
+	height: auto;
+	overflow: hidden;
+	margin: 1rem auto 0;
+}
+nav.lan{
+	padding-bottom: 6.25rem;
+	font-size: 0;
+}
+nav.lan span{
+	display: inline-block;
+	padding: .5rem 2rem;
+	margin-right: .5rem;
+	font-size: .9rem;
+	color: #fff;
+	background: #2b2b29;
+	cursor: pointer;
+}
+nav.lan span.active{
+	background: #45b0e3;
+}
+/*微wifi*/
+article.con{
+	height: auto;
+	overflow: hidden;
+	font-size: .8rem;
+}
+article.con h3{
+	padding-bottom: .5rem;
+	font-size: 1.2rem;
+}
+.pic{margin: 1.5rem 0 5rem;}
+.pic img{max-width: 100%}
+/*微打印*/
+section.tab{
+	height: auto;
+	overflow: hidden;
+	display: none;
+}
+section.tab .left{
+	width: 35%;
+	float: left;
+}
+section.tab .left img{max-width: 100%}
+section.tab .right{
+	width: 60%;
+	float:right;
+}
+.right{
+	font-size: .8rem;
+	line-height: 1.2rem;
+}
+.right p{
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 2rem;
+	margin-bottom: 1rem;
+}
+/*微小票*/
+.tab h3{
+	padding: .5rem 0;
+}
+span.state{font-size: .8rem;}
+.list-img{
+	height: auto;
+	overflow: hidden;
+	margin: 3.5rem 0;
+}
+.list-img span{
+	display: block;
+	width: 3.75rem;
+	height: auto;
+	text-align: center;
+	color:#666;
+	margin-right: 1.5rem;
+	font-size: .7rem;
+	float: left;
+}
+.list-img span img{margin-bottom: .3rem;}
+span.fontw{font-weight: bold;}
+.three{
+	padding: 2rem 0;
+	font-size: 0;
+}
+.three span{
+	display: inline-block;
+	width: 6.25rem;
+	height: 5.35rem;
+	padding-top: .9rem;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	-ms-border-radius:100%;
+	-o-border-radius:100%;
+	border-radius:100%;
+	color:#fff;
+	font-size: .7rem;
+	margin-right: 4rem;
+	text-align: center;
+}
+.three h1{
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+.three span:first-child{background: #cebf40;}
+.three span:nth-child(2){background: #22c2d0;}
+.three span:nth-child(3){background: #00c564;}
+
+
+@media screen and (max-width: 640px){
+	.contain{width: 100%}
+	nav.lan span{
+		padding: .5rem 1rem;
+		font-size: .8rem;
+	}
+	nav.lan{padding-bottom: 3rem;}
+	.contain{margin: 1rem auto 0;}
+	section.tab{width:90%;margin:0 auto;}
+	.tab h3{padding: .5rem 1rem;}
+	span.state{display: none;}
+	.list-img{margin: 1.5rem 0;padding: 0 1rem;}
+	.list-img span{
+		margin-bottom: 1rem;
+	}
+	span.fontw{padding: 0 1rem;}
+	.three{padding: 1rem;}
+	.three span{
+	    width: 5rem;
+    	height: 4.3rem;
+    	padding-top: .6rem;
+	    margin-right: 1rem;
+	    font-size: .6rem;
+	}
+	.three h1{
+		font-size: 1.2rem;
+	}
+	section.tab .left,section.tab .right{
+		float: none;
+		width: 100%;
+	}
+	section.tab .left{margin-bottom: 1rem;}
+	footer.foot{position: static;}
+}

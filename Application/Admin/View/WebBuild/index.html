@@ -1,0 +1,50 @@
+<include file="Public:head" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">建站留言</div>
+                        <div class="con_form">
+                            <div class="con_form_body">
+                                <div class="operation">
+                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td>姓名</td>
+											<td>电话号码</td>
+											<td>留言</td>
+                                            <td>操作</td>
+										</tr>
+                                    </thead>
+                                    <tbody>
+									<volist name="list" id="vo">
+                                        <tr>
+                                            <td style="width:8%">{$vo.name}</td>
+                                            <td style="width:10%">{$vo.tel}</td>
+											<td style="width:60%">{$vo.message}</td>
+                                            <td style="width:5%">
+                                                <a href="__MODULE__/webBuild/del/id/{$vo.id}" class="op1">删除</a>
+                                            </td>
+                                        </tr>
+									</volist>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- 分页 -->
+                            <div class="page">
+                                <div class="page_box" >
+									<if condition="$count gt $num" >
+										{$page}
+									</if>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+        </div>
+
+<include file="Public:footer" />

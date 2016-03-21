@@ -1,0 +1,119 @@
+<include file="Public:head" />
+        <div class="contain">
+            <div class="con_right">
+                <div class="con_body">
+
+                    <div class="con_list">
+                        <div class="con_top">功能管理</div>
+                        <div class="con_form">
+                            <div class="con_form_body">
+                                <div class="operation">
+                                    <div class="blo_right">
+                                        <a href="__MODULE__/Func/add">新增</a>
+                                    </div>
+                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td>ID</td>
+                                            <td>功能名</td>
+                                            <td>url</td>
+                                            <td>类名</td>
+                                            <td>操作</td>
+                                        </tr>
+                                    </thead> 
+                                    <tbody>             
+									<volist name="list" id="vo">
+                                        <tr>
+                                            <td>{$vo.id}</td>
+                                            <td>{$vo.name}</td>
+                                            <td>{$vo.url}</td>
+											<td>{$vo.class}</td>
+                                            <td>
+                                                <a href="__MODULE__/Func/edit/id/{$vo.id}" class="op1">编辑</a>
+                                                <a href="__MODULE__/Func/del/id/{$vo.id}" class="op1">删除</a>
+                                            </td>
+                                        </tr>
+									</volist>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- 分页 -->
+                            <div class="page">
+                                <div class="page_box" >
+                                    {$page}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="Public:left" />
+        </div>
+
+        <script>
+        $(function(){
+            $('ul.navy').eq(0).find('ul.sec_nav').slideDown();
+            // 
+            $('#key').focus(function(){
+                if($(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','');
+                }
+            });
+            $('#key').blur(function(){
+                if($(this).val() == '' || $(this).val() == '请输入文档名称、备注'){
+                    $(this).attr('value','请输入文档名称、备注');
+                }
+            });
+            // 单数样式
+            $('tr:even td').css('background-color','#f8f8f8');
+        });
+        $('a.top_nav').click(function(){
+            $(this).parent().find('ul').slideToggle();
+        });
+        // 
+        function check_search(){
+            var val = $('#key').val();
+            if(val == '' || val == '请输入文档名称、备注'){
+                alert('搜索内容不能为空');
+                return false;
+            }else{
+                $('#search_form').submit();
+            }
+        }
+        // 
+        $('.orther_chec').click(function(){
+            if($(this).hasClass('true')){
+                $(this).removeClass('true');
+                $(this).find('input[type="checkbox"]').attr('checked',false);
+            }else{
+                $(this).addClass('true');
+                $(this).find('input[type="checkbox"]').attr('checked',true);
+            }
+            
+        });
+        // 
+        $('.all_check').click(function(){
+            if($(this).hasClass('true')){
+                $(this).removeClass('true');
+                $('.orther_chec').removeClass('true');
+                $('.orther_chec').find('input[type="checkbox"]').attr('checked',false);
+            }else{
+                $(this).addClass('true');
+                $('.orther_chec').addClass('true');
+                $('.orther_chec').find('input[type="checkbox"]').attr('checked',true);
+            }
+        });
+        // 页面跳转
+        $('span.go a').click(function(){
+            var page = $('#goto').val().trim();
+            if(page == ''){
+                alert('请输入页码');
+            }else if(isNaN(page) || page <= 0 || page.substr(0,1) == 0){
+                alert('请正确输入页码格式');
+            }else
+            $('#page_form').submit();
+        })
+        </script>
+    </body>
+</html>
